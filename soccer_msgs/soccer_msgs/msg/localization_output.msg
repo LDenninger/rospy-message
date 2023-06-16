@@ -1,0 +1,10 @@
+geometry_msgs/Point position
+bool dilemmaActive
+uint8 DILEMMA_UNKNOWN=0
+uint8 DILEMMA_BENCHSIDE=1
+uint8 DILEMMA_FARSIDE=2
+uint8 DILEMMA_CENTER=3
+uint8 DILEMMA_GOAL=4
+uint8 lastDilemmaState
+time lastResolvedDilemma
+float32 probability

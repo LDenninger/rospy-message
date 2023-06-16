@@ -1,0 +1,3 @@
+geometry_msgs/Point position
+bool setOrientation
+bool setPosition
